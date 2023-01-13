@@ -1,0 +1,47 @@
+
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logoSection {
+  background-image: url("./images/Logo.png");
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size:  200px;
+}
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    float: right;
+   
+}
+  .menu {
+    color: #000000;
+    font-weight: 700;
+    font-family:  'Montserrat';
+  }
+
+  #me {
+    font-family:  'Montserrat';
+    color: #675F5F;
+    float: right;
+    font-size: 30px;
+    text-align: right;
+  }
+
+  .designer {
+    float: right;
+    text-align: right;
+   
+  }
+
+  .rhonda {
+    background-size: 500px;
+  }
