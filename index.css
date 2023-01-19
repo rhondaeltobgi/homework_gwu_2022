@@ -12,36 +12,70 @@ body {
   text-align: left;
   background-repeat: no-repeat;
   background-size:  200px;
+  height: 200px;
+  width: 200px;
+  background-position-y: -50px;
 }
 
 #navigation {
     display: flex;
-    width: 50%;
     align-items: flex-end;
-    justify-content: space-evenly;
-    float: right;
+    justify-content:space-around;
+    color: #000000;
+    font-weight: 700;
+    font-family:  'Montserrat';
+    padding: 0px 20px;
+    border: none;
+    background: none;
+    
    
 }
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+}
+
   .menu {
     color: #000000;
     font-weight: 700;
     font-family:  'Montserrat';
+    padding: 0px 20px;
+    
   }
+
 
   #me {
     font-family:  'Montserrat';
     color: #675F5F;
     float: right;
     font-size: 30px;
-    text-align: right;
+    text-align: left;
+    width: 400px;
   }
 
   .designer {
     float: right;
     text-align: right;
+    text-align: left;
    
   }
 
   .rhonda {
-    background-size: 500px;
+    position: absolute;
+    left: 50px;
+    width: 400px;
+    height: 300px;
   }
+
+  .icons {
+    position: absolute; bottom: 10px; left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: -50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
