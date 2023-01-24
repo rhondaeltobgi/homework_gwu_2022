@@ -22,13 +22,26 @@ body {
     align-items: flex-end;
     justify-content:space-around;
     color: #000000;
-    font-weight: 700;
     font-family:  'Montserrat';
     padding: 0px 20px;
     border: none;
     background: none;
-    
+    width: 600px;
    
+}
+
+#navigation button {
+  background-color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 15px;
+
+}
+
+#navigation button:hover {
+background-color: #F6E7E7;
+border-radius: 8px;
 }
 
 #menu {
