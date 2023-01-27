@@ -75,7 +75,8 @@ border-radius: 8px;
   }
 
   .rhonda {
-    position: absolute;
+    position:absolute;
+    bottom:0px;
     left: 50px;
     width: 400px;
     height: 300px;
@@ -86,8 +87,33 @@ border-radius: 8px;
     width: 100%;
     display: flex;
     justify-content: center;
-    bottom: -50%;
+    bottom: -30%;
 }
+
+
+.contact {
+  position: absolute;
+  bottom: -20%;
+  right: 50%;
+  font-size: 20px;
+  font-family:  'Montserrat';
+  color: #675F5F;
+  font-weight: 700;
+
+}
+
+.img-with-text {
+  position: absolute;
+  text-align: center;
+  bottom: -40%;
+  right: 40%;
+  font-family:  'Montserrat';
+  color: #675F5F;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
 
 @media only screen and (max-width: 600px) {
 
