@@ -1,0 +1,67 @@
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logoSection {
+    background-image: url("./images/Logo.png");
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size:  200px;
+    height: 200px;
+    width: 200px;
+    background-position-y: -50px;
+  }
+  #navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-around;
+    color: #000000;
+    font-family:  'Montserrat';
+    padding: 0px 20px;
+    border: none;
+    background: none;
+    width: 600px;
+   
+}
+
+#navigation button {
+  background-color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 15px;
+
+}
+
+#navigation button:hover {
+background-color: #F6E7E7;
+border-radius: 8px;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+  .menu {
+    color: #000000;
+    font-weight: 700;
+    font-family:  'Montserrat';
+    padding: 0px 20px;
+    
+  }
+
+  p:hover {
+    font-family:  'Montserrat';
+    font-size: 20px;
+    color: #675F5F;
+  }
+
+  .sideMenu {
+    font-family:  'Montserrat';
+    font-size: 20px;
+  }
